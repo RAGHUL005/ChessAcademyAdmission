@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.header-container {
+  /* Add your styles for the header container if needed */
+}
+
+/* Add this to UserPage.css */
+.featured-courses {
+  margin-top: 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 60px;
+  background-color: #007bff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  display: none;
+}
+
+.menu-dropdown.show {
+  display: flex;
+  flex-direction: column; /* Ensure it's displayed as a column */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+.nav-name {
+  font-size: 24px;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-heading {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.intro-paragraph {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.featured-courses {
+  margin-top: 60px;
+}
+
+/* CourseCard styles can go here or be kept separate depending on your preference */

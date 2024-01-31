@@ -1,0 +1,59 @@
+/* Add this CSS to your existing styles or create a new stylesheet */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel-container {
+    max-width: 70%; /* Adjust to half of the page width */
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .carousel-container img {
+    width: 100%; /* Make the images responsive to the container */
+    max-height: 650px; /* Set the maximum height of the images, adjust as needed */
+    border-radius: 20px; /* Add border-radius for rounded corners, adjust as needed */
+    box-shadow: 0 4px px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Customize the slider dots */
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 8px;
+    padding: 0;
+  }
+  
+  
+  
+  .slick-dots li.slick-active button {
+    background:white;
+  }
+ 
+.content {
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  

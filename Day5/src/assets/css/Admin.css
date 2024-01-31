@@ -1,0 +1,52 @@
+/* AdminPage.css */
+/* ... (unchanged styles) */
+
+.featured-courses {
+  margin-top: 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.delete-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-button:hover,
+.delete-button:hover {
+  background-color: #45a049;
+}
+
+/* Add more styles as needed */
