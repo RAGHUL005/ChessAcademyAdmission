@@ -1,0 +1,27 @@
+/* About.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.intro-section p, .mission-section p, .vision-section p, .why-choose-us-section p, .get-started-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.key-features-section ul, .why-choose-us-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.key-features-section li, .why-choose-us-section li {
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed based on your design preferences */
